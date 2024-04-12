@@ -74,7 +74,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 - [GitHub API](https://docs.github.com/en/rest)
 - [Requests](https://requests.readthedocs.io/)
 - [Rich](https://rich.readthedocs.io/)
-
-```
-
-Feel free to customize the README.md file based on your specific project details, such as adding more sections, providing additional examples, or including badges for build status or code coverage.
