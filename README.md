@@ -18,12 +18,12 @@ Star Quest is a command-line tool that allows you to analyze the star counts of 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/github-stars-analyzer.git
+   git clone https://github.com/sho-luv/star_quest.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd github-stars-analyzer
+   cd star_quest
    ```
 
 3. Install the required dependencies:
@@ -36,7 +36,29 @@ Star Quest is a command-line tool that allows you to analyze the star counts of 
 To use the GitHub Stars Analyzer, run the following command:
 
 ```
-python github_stars_analyzer.py [-h] [-v] username [username ...]
+python star_quest.py                           
+
+             .                                                                         .   
+           .o8                                                                       .o8   
+ .oooo.o .o888oo  .oooo.   oooo d8b       .ooooo oo oooo  oooo   .ooooo.   .oooo.o .o888oo 
+d88(  "8   888   `P  )88b  `888""8P      d88' `888  `888  `888  d88' `88b d88(  "8   888   
+`"Y88b.    888    .oP"888   888          888   888   888   888  888ooo888 `"Y88b.    888   
+o.  )88b   888 . d8(  888   888          888   888   888   888  888    .o o.  )88b   888 . 
+8""888P'   "888" `Y888""8o d888b         `V8bod888   `V88V"V8P' `Y8bod8P' 8""888P'   "888" 
+                                               888.                                        
+                                               8P'                                         
+                                               "                                           
+
+usage: star_quest.py [-h] [-v] username [username ...]
+
+Process GitHub usernames or files containing usernames and tell you how many stars they have.
+
+positional arguments:
+  username       GitHub Usernames or Orginization. Or files with usernames
+
+options:
+  -h, --help     show this help message and exit
+  -v, --verbose  Show all repositories, even those with 0 stars
 ```
 
 - `username`: GitHub username(s) or organization(s) to analyze. You can provide multiple usernames separated by spaces. Alternatively, you can provide file paths containing usernames, one per line.
@@ -45,9 +67,9 @@ python github_stars_analyzer.py [-h] [-v] username [username ...]
 
 Examples:
 ```
-python github_stars_analyzer.py octocat
-python github_stars_analyzer.py google microsoft -v
-python github_stars_analyzer.py usernames.txt
+python star_quest.py octocat
+python star_quest.py google microsoft -v
+python star_quest.py usernames.txt
 ```
 
 ## Output
