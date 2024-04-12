@@ -33,6 +33,9 @@ Star Quest is a command-line tool that allows you to analyze the star counts of 
 
 ## Usage
 
+> :warning: **Warning**
+> GitHub rate limits unauthenticated API requests to 60 requests per hour
+
 To use the GitHub Stars Analyzer, run the following command:
 
 ```
