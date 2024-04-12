@@ -87,10 +87,6 @@ If the provided username corresponds to an organization, the tool will additiona
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
 ## Acknowledgements
 
 - [GitHub API](https://docs.github.com/en/rest)
